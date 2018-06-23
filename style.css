@@ -1,0 +1,107 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+html
+{
+    min-height:100%;
+}
+
+body
+{
+   
+    background-repeat: no-repeat;
+    background: repeating-linear-gradient(
+  45deg,
+  #f1a430bd,
+  #ac7e1aaf 8px,
+  rgba(238, 131, 31, 0.795) 10px,
+  rgb(255, 123, 0) 20px,
+  rgb(194, 103, 19) 20px
+);
+}
+
+
+.anim
+{
+    margin:0 auto;
+    font-size: 8em;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    color:darkmagenta;
+   
+}
+
+.moon_0
+{
+    background-image: url(img/moon.png);
+    background-size: 100%;
+    padding:45px 0;
+    width:100px;
+    border-radius: 50%;
+    margin:0 35%;
+    display: block;
+   
+   
+   
+}
+.main_box
+{
+    border:14px solid darkcyan;
+    width:60%;
+    padding:12.5rem 0;
+    margin:0 auto;
+    background: repeating-linear-gradient(
+        45deg,
+        #f1a430bd,
+        #b31e1eaf 10px,
+        rgba(238, 31, 31, 0.795) 10px,
+        rgb(255, 43, 43) 20px,
+        rgb(161, 1, 1) 20px
+      );
+      display: block;
+}
+
+
+.moon_1
+{
+    background-image: url(img/moon.png);
+    background-size: 100%;
+    padding:45px 0;
+    width:100px;
+    border-radius: 50%;
+    margin:0 45%;
+    margin-top:2em;
+    position: absolute;
+    left:-242px;
+    bottom:213px;
+    display: block;
+    visibility: hidden;
+    transition: all 1s ease-in;
+   
+}
+.size
+{
+    width:63%;
+    margin:0 auto;
+}
+.start
+{
+    position: relative;
+    display: block;
+    margin:0 auto;
+    width:160px;
+    padding:12px 0;
+    outline: none;
+}
+
+.para
+{
+    font-size: 1rem;
+    padding:5px;
+}
