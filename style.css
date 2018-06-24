@@ -54,7 +54,7 @@ body
 {
     border:14px solid darkcyan;
     width:60%;
-    padding:12.5rem 0;
+    padding:13rem 0;
     margin:0 auto;
     background: repeating-linear-gradient(
         45deg,
@@ -65,21 +65,23 @@ body
         rgb(161, 1, 1) 20px
       );
       display: block;
+      max-width:800px;
 }
 
 
 .moon_1
 {
+  
     background-image: url(img/moon.png);
     background-size: 100%;
     padding:45px 0;
     width:100px;
     border-radius: 50%;
-    margin:0 45%;
-    margin-top:2em;
+    margin:0 55.7%;
+   
     position: absolute;
     left:-242px;
-    bottom:213px;
+    bottom:177px;
     display: block;
     visibility: hidden;
     transition: all 1s ease-in;
