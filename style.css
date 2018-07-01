@@ -80,8 +80,8 @@ body
     margin:0 55.7%;
    
     position: absolute;
-    left:-345px;
-    bottom:262px;
+    left:-511px;
+    bottom:283px;
     display: block;
     visibility: hidden;
     transition: all 1s ease-in;

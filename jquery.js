@@ -4,22 +4,34 @@ $(window).ready(function(){
     });
 });
 
-$(window).ready(function(){
-    $("#go").click(function(){
-        $("#moon_show").css({"visibility":"visible"}),
-        $("#moon_show").animate({"left":"+=698px"}),
-        $("#moon_show").animate({"bottom":"+=0"}),
-        $("#moon_show").animate({"bottom":"+=335px"}),
-        $("#moon_show").animate({"left":"+=0"}),
-        $("#moon_show").animate({"left":"+=335px"}),
-         $("#moon_show").animate({"left":"+=0"}),
 
-        $("#moon_show").animate({"left":"-=490px"}),
-        $("#moon_show").animate({"top":"+=0"}).delay(500),
-        $("#moon_show").animate({"top":"+=330px"})
-      
+
+
+
+
+    $(window).ready(function(){
+        $("#go").click(function(){
+            $("#moon_show").css({"visibility":"visible"}),
+            $("#moon_show").animate({"left":"+=1013px"}),
+            $("#moon_show").animate({"bottom":"+=0"}),
+            $("#moon_show").animate({"bottom":"+=327px"}),
+            $("#moon_show").animate({"left":"+=0"}),
+            $("#moon_show").animate({"left":"+=0"}),
+            $("#moon_show").animate({"left":"-=698px"}),
+            $("#moon_show").animate({"bottom":"+=0"}),
+            $("#moon_show").animate({"bottom":"+=0"}),
+            $("#moon_show").animate({"bottom":"-=326px"})
+          
+        });
+        
     });
-});
+
+
+
+  
+    
+
+
 
 
 
