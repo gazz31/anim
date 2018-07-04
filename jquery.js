@@ -9,23 +9,46 @@ $(window).ready(function(){
 
 
 
-    $(window).ready(function(){
+   
+   $(window).ready(function(){
+        
         $("#go").click(function(){
             $("#moon_show").css({"visibility":"visible"}),
-            $("#moon_show").animate({"left":"+=1013px"}),
+            $("#moon_show").animate({"left":"+=1010px"}),
             $("#moon_show").animate({"bottom":"+=0"}),
-            $("#moon_show").animate({"bottom":"+=327px"}),
+            
+            $("#moon_show").animate({"bottom":"+=328px"}),
             $("#moon_show").animate({"left":"+=0"}),
             $("#moon_show").animate({"left":"+=0"}),
-            $("#moon_show").animate({"left":"-=698px"}),
+            $("#moon_show").animate({"left":"-=700px"}),
             $("#moon_show").animate({"bottom":"+=0"}),
             $("#moon_show").animate({"bottom":"+=0"}),
-            $("#moon_show").animate({"bottom":"-=326px"})
-          
+            $("#moon_show").animate({"bottom":"-=265px"})
+            $("#moon_show").animate({"left":"+=0"}),
+            $("#moon_show").animate({"left":"+=0"}),
+            $("#moon_show").animate({"left":"+=880px"}),
+            $("#moon_show").animate({"bottom":"+=0"}),
+            $("#moon_show").animate({"bottom":"+=215px"}),
+            $("#moon_show").animate({"left":"+=0"}),
+            $("#moon_show").animate({"left":"+=0"}),
+            $("#moon_show").animate({"left":"-=560px"}),
+            $("#moon_show").animate({"bottom":"+=0"}),
+            $("#moon_show").animate({"bottom":"+=0"}),
+            $("#moon_show").animate({"bottom":"-=163px"}),
+            $("#moon_show").animate({"left":"+=0"}),
+            $("#moon_show").animate({"left":"+=0"}),
+            $("#moon_show").animate({"left":"+=390px"}),
+            $("#moon_show").animate({"bottom":"+=0"}),
+            $("#moon_show").animate({"bottom":"+=0"}),
+            $("#moon_show").animate({"bottom":"+=163px"})
+
+           
         });
         
     });
+    
 
+  
 
 
   

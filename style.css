@@ -32,11 +32,25 @@ body
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-
+    -webkit-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    -moz-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
     color:darkmagenta;
+    width:40%;
+    box-sizing: content-box
    
 }
+.anim:hover
+{
+    
+    -webkit-box-shadow: -62px 49px 300px 88px rgba(194,0,194,1);
+    -moz-box-shadow: -62px 49px 300px 88px rgba(194,0,194,1);
+    box-shadow: -62px 49px 300px 88px rgba(194,0,194,1);
+    background:darkmagenta; 
+    color:red;
+    cursor:default;
 
+}
 .moon_0
 {
     background-image: url(img/moon.png);
@@ -66,6 +80,7 @@ body
       );
       display: block;
       max-width:800px;
+      max-height:450px;
 }
 
 
@@ -78,10 +93,9 @@ body
     width:100px;
     border-radius: 50%;
     margin:0 55.7%;
-   
     position: absolute;
-    left:-511px;
-    bottom:283px;
+    left:-510px;
+    bottom:284px;
     display: block;
     visibility: hidden;
     transition: all 1s ease-in;
