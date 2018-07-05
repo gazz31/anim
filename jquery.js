@@ -14,11 +14,16 @@ $(window).ready(function(){
         
         $("#go").click(function(){
             $("#moon_show").css({"visibility":"visible"}),
+            $("#moon_show").delay(5000),
             $("#moon_show").animate({"left":"+=1010px"}),
-            $("#moon_show").animate({"bottom":"+=0"}),
             
+            
+                $("#moon_show").animate({"bottom":"+=0"}),
+            
+            $("#moon_show").delay(5000),
             $("#moon_show").animate({"bottom":"+=328px"}),
             $("#moon_show").animate({"left":"+=0"}),
+            $("#moon_show").delay(5000),
             $("#moon_show").animate({"left":"+=0"}),
             $("#moon_show").animate({"left":"-=700px"}),
             $("#moon_show").animate({"bottom":"+=0"}),
@@ -40,14 +45,30 @@ $(window).ready(function(){
             $("#moon_show").animate({"left":"+=390px"}),
             $("#moon_show").animate({"bottom":"+=0"}),
             $("#moon_show").animate({"bottom":"+=0"}),
+            $("#moon_show").animate({"bottom":"+=163px"}),
             $("#moon_show").animate({"bottom":"+=163px"})
-
+           
            
         });
         
     });
     
+    
 
+    $(document).on('mouseenter', function(e){
+        $('#moon_show').html('Coords:Y:'+e.clientY+"X:"+e.clientX);
+        $("#moon_show").css("box-sizing", 'border-box');
+        $("#moon_show").css("font-size", "2");
+       
+        $("#moon_show").css("padding-top", "-=6");
+        $("#moon_show").css("padding-bottom", "-=6");
+    
+    });
+
+       
+
+
+    
   
 
 
