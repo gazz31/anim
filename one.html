@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Page Title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link rel="stylesheet" href="one.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="jquery-v3.3.1.min.js"></script>
+        <script type="text/javascript">
+		
+			var number = Math.floor(Math.random()*5)+1;
+			
+			var timer1 = 0;
+			var timer2 = 0;
+			
+			function setslide(nr_slide)
+			{
+				clearTimeout(time_one);
+				clearTimeout(time_sec);
+				number = nr_slide - 1;
+				
+				hide();
+				setTimeout("change()", 500);
+				
+			}
+			
+			function hide()
+			{
+				$("#slide").fadeOut(500);
+			}
+		
+			function change()
+			{
+				number++; if (number>5) number=1;
+				
+				var file = "<img style=\"width:100%; height:80vh; margin:0 auto;\"  src=\"img_2/image_" + number + ".jpg\" />";
+				
+				document.getElementById("slide").innerHTML = file;
+				$("#slide").fadeIn(500);
+				
+				time_one = setTimeout("change()", 5000);
+				timer_sec = setTimeout("hide()", 4500);
+			
+			}
+			
+		</script>
+	</head>
+
+	<body onload="change()">
+       
+        
+
+        <div class="main_box">
+            <nav>
+                <a name="x4" class="one" href="#x">mój wzór</a>
+                <a class="one" href="#x1">ciepłe barwy</a>
+                <a class="one" href="#x2">kwiat</a>
+                <a class="one" href="#x3">czyste niebo</a>
+            </nav>
+            
+            <div style="display:block; visibility: hidden; width:100%; height:87px; margin:0 auto;">
+                <span class="one">Pokaz slajdów z zachodem słońca.</span>
+                <span class="size" onclick="setslide(1)" style="cursor:pointer;">[ 1 ]</span>
+                <span class="size" onclick="setslide(2)" style="cursor:pointer;">[ 2 ]</span>
+                <span class="size" onclick="setslide(3)" style="cursor:pointer;">[ 3 ]</span>
+                <span class="size" onclick="setslide(4)" style="cursor:pointer;">[ 4 ]</span>
+                <span class="size" onclick="setslide(5)" style="cursor:pointer;">[ 5 ]</span>
+
+
+
+
+            </div>
+           
+            
+            <div id="slide" style="display:block; width:80%; height:120px; margin:0 auto;"></div>
+            <header style="margin-top:21em;" >
+                
+                <a name="x"><div class="img"></div></a>
+                <a name="x1"><div class="img_1"></div></a>
+                 <a name="x2"><div class="img_2"></div></a>
+                <a name="x3"><div class="img_3"></div></a>
+                <a href="#x4"><button class="but">Powrót</button></a>
+            </header>
+            
+        </div>
+	</body>
+</html>

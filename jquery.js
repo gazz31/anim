@@ -1,71 +1,172 @@
-$(window).ready(function(){
+
+
+
+var text_0 = "";
+text_0.css(
+    {"font-size": 24,
+    "font-wieght": "bolder"}
+);
+
+
+
+$(document).ready(function(){
     $("#go").click(function(){
-        $("#moon_hide").css({"visibility":"hidden"});
+        $("#middle").text("wow!!!")
     });
+
+
+
+
 });
+$(document).ready(function(){
+    $("#middle").load(function(){
+        if ( $("#moon_show").animate({"left":"+=700px"}))
+        {
+             
+            $(document).ready(function()
+            {
+                step_0(); 
+            })
 
+        }
 
-
-
-
-
-   
-   $(window).ready(function(){
-        
-        $("#go").click(function(){
-            $("#moon_show").css({"visibility":"visible"}),
-            $("#moon_show").delay(5000),
-            $("#moon_show").animate({"left":"+=1010px"}),
-            
-            
-                $("#moon_show").animate({"bottom":"+=0"}),
-            
-            $("#moon_show").delay(5000),
-            $("#moon_show").animate({"bottom":"+=328px"}),
-            $("#moon_show").animate({"left":"+=0"}),
-            $("#moon_show").delay(5000),
-            $("#moon_show").animate({"left":"+=0"}),
-            $("#moon_show").animate({"left":"-=700px"}),
-            $("#moon_show").animate({"bottom":"+=0"}),
-            $("#moon_show").animate({"bottom":"+=0"}),
-            $("#moon_show").animate({"bottom":"-=265px"})
-            $("#moon_show").animate({"left":"+=0"}),
-            $("#moon_show").animate({"left":"+=0"}),
-            $("#moon_show").animate({"left":"+=880px"}),
-            $("#moon_show").animate({"bottom":"+=0"}),
-            $("#moon_show").animate({"bottom":"+=215px"}),
-            $("#moon_show").animate({"left":"+=0"}),
-            $("#moon_show").animate({"left":"+=0"}),
-            $("#moon_show").animate({"left":"-=560px"}),
-            $("#moon_show").animate({"bottom":"+=0"}),
-            $("#moon_show").animate({"bottom":"+=0"}),
-            $("#moon_show").animate({"bottom":"-=163px"}),
-            $("#moon_show").animate({"left":"+=0"}),
-            $("#moon_show").animate({"left":"+=0"}),
-            $("#moon_show").animate({"left":"+=390px"}),
-            $("#moon_show").animate({"bottom":"+=0"}),
-            $("#moon_show").animate({"bottom":"+=0"}),
-            $("#moon_show").animate({"bottom":"+=163px"}),
-            $("#moon_show").animate({"bottom":"+=163px"})
-           
-           
-        });
-        
     });
-    
-    
 
-    $(document).on('mouseenter', function(e){
-        $('#moon_show').html('Coords:Y:'+e.clientY+"X:"+e.clientX);
+});
+function step_1() 
+{
+    var text_1 = "gora";
+    text_1.css({
+        "font-size": "26px",
+        "color": "red",
+        "font-Style": "italic",
+        "font-weight": "bolder"
+    });
+}
+function step_2() 
+{
+    var text_2 = "lewa";
+    text_2.css({
+        "font-size": "26px",
+        "color": "green",
+        "font-Style": "italic",
+        "font-weight": "bolder"
+    });
+}
+function step_3() 
+{
+    var text_3 = "dol";
+    text_3.css({
+        "font-size": "26px",
+        "color": "yellow",
+        "font-Style": "italic",
+        "font-weight": "bolder"
+    });
+
+
+}
+  
+
+
+    function one()
+    {
+
+        $("#moon_show").css({"visibility":"visible"}),
+        $("#moon_show").animate({"left":"+=700px"}),
+        $("#moon_show").delay(1000),
+        
+        $("#moon_show").animate({"bottom":"+=325px"}),
+        $("#moon_show").animate({"left":"+=0"}),
+        $("#moon_show").delay(1000),
+        $("#moon_show").animate({"left":"-=620px"}),
+        $("#moon_show").animate({"bottom":"+=0"}),
+        $("#moon_show").delay(1000),
+        $("#moon_show").animate({"bottom":"-=265px"})
+        $("#moon_show").animate({"left":"+=0"}),
+        $("#moon_show").delay(1000),
+        $("#moon_show").animate({"left":"+=540px"}),
+        $("#moon_show").animate({"bottom":"+=0"}),
+        $("#moon_show").delay(1000),
+        $("#moon_show").animate({"bottom":"+=215px"}),
+        $("#moon_show").animate({"left":"+=0"}),
+        $("#moon_show").delay(1000),
+        $("#moon_show").animate({"left":"-=500px"}),
+        $("#moon_show").animate({"bottom":"+=0"}),
+        $("#moon_show").delay(1000),
+        $("#moon_show").animate({"bottom":"-=180px"}),
+        $("#moon_show").animate({"left":"+=0"}),
+        $("#moon_show").delay(1000),
+        $("#moon_show").animate({"left":"+=390px"}),
+        $("#moon_show").animate({"bottom":"+=0"}),
+        $("#moon_show").delay(1000),
+        $("#moon_show").animate({"bottom":"+=150px"}),
+        $("#moon_show").animate({"left":"+=0"}),
+        $("#moon_show").delay(1000),
+        $("#moon_show").animate({"left":"-=280px"}),
+        $("#moon_show").animate({"bottom":"+=0"}),
+        $("#moon_show").animate({"left":"-=80px"})
+
+
+    }
+
+    function link()
+    {
+        $(location).attr('href', 'one.html');
+    }
+
+
+if ($(document).ready())
+{
+    
+        $(window).ready(function(){
+            $("#go").click(function(){
+                $("#moon_hide").css({"visibility":"hidden"});
+            });
+        });
+
+
+        $(document).on('mousemove', function(e){
+            $("#go").html('Coords:Y:'+e.clientY+"X:"+e.clientX);
+            
+
+        });
+
+
         $("#moon_show").css("box-sizing", 'border-box');
         $("#moon_show").css("font-size", "2");
-       
-        $("#moon_show").css("padding-top", "-=6");
-        $("#moon_show").css("padding-bottom", "-=6");
-    
-    });
 
-       
+        $("#moon_show").css("padding-top", "-=6");
+        $("#moon_show").css("padding-bottom", "-=6"); 
+    
+        $(window).ready(function(){
+    
+        
+            $("#go").click(function(){
+                setTimeout(one,3000);
+                
+                setTimeout(link,23000);
+            
+            
+                
+            
+            
+                    
+                
+            
+                    
+                
+            });
+            
+        });
+
+      
+
+}
+
+    
+
+    
+
 
 
     

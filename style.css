@@ -27,7 +27,7 @@ body
 
 .anim
 {
-    margin:0 auto;
+    
     font-size: 8em;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -37,8 +37,8 @@ body
     box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
     color:darkmagenta;
     width:40%;
-    box-sizing: content-box
-   
+    box-sizing: content-box;
+    margin:0 auto;
 }
 .anim:hover
 {
@@ -49,7 +49,7 @@ body
     background:darkmagenta; 
     color:red;
     cursor:default;
-
+    margin:0 auto;
 }
 .moon_0
 {
@@ -83,7 +83,20 @@ body
       max-height:450px;
 }
 
+.middle
+{
+    width:45%;
+    display:block;
+    position: relative;
+    border:5px solid azure;
+    background:azure;
+    padding:40px;
+    margin:0 auto;
+    box-sizing:border-box;
+  
 
+
+}
 .moon_1
 {
   
@@ -120,4 +133,139 @@ body
 {
     font-size: 1rem;
     padding:5px;
+}
+
+.deszcz_1
+{
+  
+    background-image: url(img/deszcz.png);
+    background-size: 100%;
+    padding:45px 0;
+    width:100px;
+    border-radius: 50%;
+    margin:0 55.7%;
+    position: absolute;
+    left:-510px;
+    bottom:1184px;
+    display: block;
+    visibility: visible;
+    transition: all 1s ease-in;
+   
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1200px) 
+{
+    .anim
+    {
+    
+    font-size: 6em;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    -webkit-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    -moz-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    color:darkmagenta;
+    width:40%;
+    box-sizing: content-box;
+    margin:0 auto;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width: 800px) 
+{
+    .anim
+    {
+    
+    font-size: 4.6em;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    -webkit-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    -moz-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    color:darkmagenta;
+    width:60%;
+    box-sizing: content-box;
+    margin:0 auto;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 600px) 
+{
+    .anim
+    {
+    letter-spacing: 5px;
+    font-size: 4em;
+    padding:20px 5px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    -webkit-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    -moz-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    color:darkmagenta;
+    width:60%;
+    box-sizing: content-box;
+    margin:0 auto;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 300px) 
+{
+    .anim
+    {
+    letter-spacing: 5px;
+    font-weight:bolder;
+    font-size: 2rem;
+    padding:20px 1px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    -webkit-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    -moz-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    color:darkmagenta;
+    width:50%;
+    box-sizing: content-box;
+    margin:0 auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 300px)
+{
+    .anim
+    {
+    letter-spacing: 5px;
+    font-weight:bolder;
+    font-size: 2rem;
+    padding:20px 1px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    -webkit-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    -moz-box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    box-shadow: inset -55px 32px 88px 12px rgba(194,0,194,1);
+    color:darkmagenta;
+    width:50%;
+    box-sizing: content-box;
+    margin:0 auto;
+    }
+
+
+
+
+
+
 }
