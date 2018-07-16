@@ -1,17 +1,11 @@
 
 
 
-var text_0 = "";
-text_0.css(
-    {"font-size": 24,
-    "font-wieght": "bolder"}
-);
-
-
 
 $(document).ready(function(){
-    $("#go").click(function(){
-        $("#middle").text("wow!!!")
+    $("#go").show(function(){
+        $("#middle").text("wow!!!"),
+        $("#middle").css({"box-sizing": "border-box"})
     });
 
 
@@ -72,22 +66,22 @@ function step_3()
     {
 
         $("#moon_show").css({"visibility":"visible"}),
-        $("#moon_show").animate({"left":"+=700px"}),
+        $("#moon_show").animate({"left":"+=671px"}),
         $("#moon_show").delay(1000),
         
         $("#moon_show").animate({"bottom":"+=325px"}),
         $("#moon_show").animate({"left":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"left":"-=620px"}),
+        $("#moon_show").animate({"left":"-=671px"}),
         $("#moon_show").animate({"bottom":"+=0"}),
         $("#moon_show").delay(1000),
         $("#moon_show").animate({"bottom":"-=265px"})
         $("#moon_show").animate({"left":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"left":"+=540px"}),
+        $("#moon_show").animate({"left":"+=580px"}),
         $("#moon_show").animate({"bottom":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"bottom":"+=215px"}),
+        $("#moon_show").animate({"bottom":"+=210px"}),
         $("#moon_show").animate({"left":"+=0"}),
         $("#moon_show").delay(1000),
         $("#moon_show").animate({"left":"-=500px"}),
@@ -96,7 +90,7 @@ function step_3()
         $("#moon_show").animate({"bottom":"-=180px"}),
         $("#moon_show").animate({"left":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"left":"+=390px"}),
+        $("#moon_show").animate({"left":"+=410px"}),
         $("#moon_show").animate({"bottom":"+=0"}),
         $("#moon_show").delay(1000),
         $("#moon_show").animate({"bottom":"+=150px"}),
@@ -142,7 +136,7 @@ if ($(document).ready())
     
         
             $("#go").click(function(){
-                setTimeout(one,3000);
+                setTimeout(one,1000);
                 
                 setTimeout(link,23000);
             
