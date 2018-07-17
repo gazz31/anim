@@ -309,7 +309,7 @@ body .main_box
 
 
 }
-.main_box header a .but
+.main_box header a .but_0
 {
     position: fixed;
     top:0;
@@ -318,7 +318,72 @@ body .main_box
     background:navy;
     color:white;
     cursor:pointer;
-    padding:22px 52px;
+    padding:35px 52px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;   
+    font-size: 1.6rem;
+
+}
+
+.main_box header a .but_1
+{
+    position: fixed;
+    top:0;
+    left:0;
+    border:0px solid black;
+    background:navy;
+    color:white;
+    cursor:pointer;
+    padding:18px 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;   
+    font-size: 1.6rem;
+
+}
+
+.main_box header a .but_2
+{
+    position: absolute;
+    top:1450px;
+    right:0;
+    border:0px solid black;
+    background:navy;
+    color:white;
+    cursor:pointer;
+    padding:18px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;   
+    font-size: 1.6rem;
+
+}
+
+.main_box header a .but_3
+{
+    position: absolute;
+    top:2550px;
+    right:0;
+    border:0px solid black;
+    background:navy;
+    color:white;
+    cursor:pointer;
+    padding:18px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;   
+    font-size: 1.6rem;
+
+}
+
+
+.main_box header a .but_4
+{
+    position: absolute;
+    top:3150px;
+    right:0;
+    border:0px solid black;
+    background:navy;
+    color:white;
+    cursor:pointer;
+    padding:18px 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;   
     font-size: 1.6rem;

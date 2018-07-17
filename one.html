@@ -44,6 +44,18 @@
 				timer_sec = setTimeout("hide()", 4500);
 			
 			}
+			$(document).ready(function(){
+				$("#next").click(function(){
+				$("#first").attr("href", "#x1"),
+				$("#two").attr("href", "#x2"),
+				$("#three").attr("href", "#x3")
+
+
+			})
+
+
+
+			})
 			
 		</script>
 	</head>
@@ -81,7 +93,11 @@
                 <a name="x1"><div class="img_1"></div></a>
                  <a name="x2"><div class="img_2"></div></a>
                 <a name="x3"><div class="img_3"></div></a>
-                <a href="#x4"><button class="but">Powrót</button></a>
+				<a href="#x4"><button class="but_0">Powrót</button></a>
+				<a href="index.html"><button class="but_1">Powrót <br>na początek</button></a>
+				<a id="first"><button id="next" class="but_2">Następne zdjęcie</button></a>
+				<a id="two"><button id="next" class="but_3">Następne zdjęcie</button></a>
+				<a id="three"><button id="next" class="but_4">Następne zdjęcie</button></a>
             </header>
             
         </div>
