@@ -4,8 +4,8 @@
 
 $(document).ready(function(){
     $("#go").show(function(){
-        $("#middle").text("wow!!!"),
-        $("#middle").css({"box-sizing": "border-box"})
+        $("#text").text("wow!!!"),
+        $("#text").css({"box-sizing": "border-box"})
     });
 
 
@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 });
 $(document).ready(function(){
-    $("#middle").load(function(){
+    $("#text").load(function(){
         if ( $("#moon_show").animate({"left":"+=700px"}))
         {
              
@@ -69,34 +69,34 @@ function step_3()
         $("#moon_show").animate({"left":"+=671px"}),
         $("#moon_show").delay(1000),
         
-        $("#moon_show").animate({"bottom":"+=325px"}),
+        $("#moon_show").animate({"bottom":"+=445px"}),
         $("#moon_show").animate({"left":"+=0"}),
         $("#moon_show").delay(1000),
         $("#moon_show").animate({"left":"-=671px"}),
         $("#moon_show").animate({"bottom":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"bottom":"-=265px"})
+        $("#moon_show").animate({"bottom":"-=380px"})
         $("#moon_show").animate({"left":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"left":"+=580px"}),
+        $("#moon_show").animate({"left":"+=593px"}),
         $("#moon_show").animate({"bottom":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"bottom":"+=210px"}),
+        $("#moon_show").animate({"bottom":"+=310px"}),
         $("#moon_show").animate({"left":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"left":"-=500px"}),
+        $("#moon_show").animate({"left":"-=510px"}),
         $("#moon_show").animate({"bottom":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"bottom":"-=180px"}),
+        $("#moon_show").animate({"bottom":"-=238px"}),
         $("#moon_show").animate({"left":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"left":"+=410px"}),
+        $("#moon_show").animate({"left":"+=430px"}),
         $("#moon_show").animate({"bottom":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"bottom":"+=150px"}),
+        $("#moon_show").animate({"bottom":"+=170px"}),
         $("#moon_show").animate({"left":"+=0"}),
         $("#moon_show").delay(1000),
-        $("#moon_show").animate({"left":"-=280px"}),
+        $("#moon_show").animate({"left":"-=290px"}),
         $("#moon_show").animate({"bottom":"+=0"}),
         $("#moon_show").animate({"left":"-=80px"})
 
