@@ -66,7 +66,7 @@ function step_3()
     {
 
         $("#moon_show").css({"visibility":"visible"}),
-        $("#moon_show").animate({"left":"+=671px"}),
+        $("#moon_show").animate({"left":"+=510px"}),
         $("#moon_show").delay(1000),
         
         $("#moon_show").animate({"bottom":"+=445px"}),
