@@ -59,43 +59,53 @@ function step_3()
 
 }
 
-
+$("p#44.test").css("background-color","red");
 
     function one()
     {
         
-        $("#moon_show").delay(1000),
+        
         
         $("#moon_show").css({"visibility":"invisible"}),
+		$("#moon_show").delay(500),
+		$("#moon_show").animate({"left":"=0%"}),
+        $("#moon_show").animate({"left":"+=77.5%"}),
 
-        $("#moon_show").animate({"left":"+=510px"}),
+        $("#moon_show").delay(500),
+		$("#moon_show").animate({"bottom":"=0%"}),
+		$("#moon_show").animate({"bottom":"+=72.2%"}),
+ 
+  
+        $("#moon_show").delay(500),
+		$("#moon_show").animate({"left":"=0%"}),
+		$("#moon_show").animate({"left":"-=-10.4%"}),
+        
+      
+        $("#moon_show").delay(500),
+		$("#moon_show").animate({"bottom":"=0%"}),
+        $("#moon_show").animate({"bottom":"+=28.8%"})
+
+        $("#moon_show").delay(500),
+		$("#moon_show").animate({"left":"+=0"}),
+        $("#moon_show").animate({"left":"+=65%"}),
+        
+        $("#moon_show").delay(500),
+        $("#moon_show").animate({"bottom":"+=0"}),
+        $("#moon_show").animate({"bottom":"+=57.6%"}),
 
         
+        $("#moon_show").delay(500),
+        $("#moon_show").animate({"left":"=0%"}),
+        $("#moon_show").animate({"left":"+=23%"}),
         
-        $("#moon_show").delay(1000),
-        $("#moon_show").animate({"bottom":"+=0"}),
-        $("#moon_show").animate({"bottom":"+=355px"}),
-        $("#moon_show").animate({"left":"+=0"}),
-        $("#moon_show").delay(1000),
-        $("#moon_show").animate({"left":"-=510px"}),
-        $("#moon_show").animate({"bottom":"+=0"}),
-        $("#moon_show").delay(1000),
-        $("#moon_show").animate({"bottom":"-=280px"})
-        $("#moon_show").animate({"left":"+=0"}),
-        $("#moon_show").delay(1000),
-        $("#moon_show").animate({"left":"+=593px"}),
-        $("#moon_show").animate({"bottom":"+=0"}),
-        $("#moon_show").delay(1000),
-        $("#moon_show").animate({"bottom":"+=310px"}),
-        $("#moon_show").animate({"left":"+=0"}),
-        $("#moon_show").delay(1000),
-        $("#moon_show").animate({"left":"-=510px"}),
-        $("#moon_show").animate({"bottom":"+=0"}),
-        $("#moon_show").delay(1000),
-        $("#moon_show").animate({"bottom":"-=238px"}),
-        $("#moon_show").animate({"left":"+=0"}),
-        $("#moon_show").delay(1000),
-        $("#moon_show").animate({"left":"+=430px"}),
+        $("#moon_show").delay(500),
+        $("#moon_show").animate({"bottom":"=0%"}),
+        $("#moon_show").animate({"bottom":"-=-43%"}),
+
+        $("#moon_show").delay(500),
+        $("#moon_show").animate({"left":"=0%"}),
+        $("#moon_show").animate({"left":"-=-65%"}),
+
         $("#moon_show").animate({"bottom":"+=0"}),
         $("#moon_show").delay(1000),
         $("#moon_show").animate({"bottom":"+=170px"}),
