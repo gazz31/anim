@@ -112,7 +112,8 @@ if ($(document).ready())
     
         $(window).ready(function(){
             $("#go").click(function(){
-                $("#moon_hide").css({"visibility":"hidden"});
+                $(".moon_0").css({"visibility":"hidden"});
+				$(".moon_2").css({"visibility":"hidden"});
             });
         });
 
