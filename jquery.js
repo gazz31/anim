@@ -5,7 +5,13 @@
 $(document).ready(function(){
     $("#go").show(function(){
         $("#text").text("wow!!!"),
-        $("#text").css({"box-sizing": "border-box"})
+        $("#text").css({
+        "box-sizing": "border-box",
+        "background":"blue"
+    
+    
+    });
+       
     });
 
 
@@ -22,69 +28,72 @@ function step_0()
   
 		$("#moon_show").css({"visibility":"invisible"});
 		
-		$("#moon_show").delay(500).animate({
+		$("#moon_show").delay(300).animate({
 
 		
         "left":"+=77.5%"
         
     
-    });
+    }, 1000);
 
-        $("#moon_show").delay(800).animate({
-
-    
-            "bottom":"+=72%"
-    
-
-    });
-         $("#moon_show").delay(800).animate({
+        $("#moon_show").animate({
 
     
-            "left":"-=-10.4%"
+            "bottom":"+=72.4%"
+    
 
-    }); 
-    $("#moon_show").delay(800).animate({
+    }, 1000);
+
+        $("#moon_show").animate({
+
+    
+            "left":"+=10.4%"
+
+    }, 1000); 
+
+    $("#moon_show").animate({
 
     
         "bottom":"+=28.8%"
 
-    });
-    $("#moon_show").delay(800).animate({
+    }, 1000);
+
+    $("#moon_show").animate({
 
     
         "left":"+=65%"
 
-    });
-    $("#moon_show").delay(800).animate({
+    }, 1000);
+
+    $("#moon_show").animate({
 
     
         "bottom":"+=57.6%"
 
-    });
-    $("#moon_show").delay(800).animate({
+    }, 1000);
+
+    $("#moon_show").animate({
 
     
-        "left":"+=23%"
+        "left":"+=5%"
 
-    });
-    $("#moon_show").delay(800).animate({
+    }, 1000);
 
-    
-        "bottom":"-=-43%"
-
-    });
-    $("#moon_show").delay(800).animate({
+    $("#moon_show").animate({
 
     
-        "left":"-=-65%"
+        "bottom":"+=9%"
 
-    });
-    $("#moon_show").delay(800).animate({
+    }, 500);
+
+    $("#moon_show").animate({
 
     
-        "left":"+=+35%",
-       
+        "left":"+=42%"
+
     });
+
+  
    
         
         
@@ -125,11 +134,9 @@ if ($(document).ready())
         });
 
 
-        $("#moon_show").css("box-sizing", 'border-box');
-        $("#moon_show").css("font-size", "2");
+       
 
-        $("#moon_show").css("padding-top", "-=6");
-        $("#moon_show").css("padding-bottom", "-=6"); 
+       
     
         $(window).ready(function(){
     

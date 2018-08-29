@@ -95,6 +95,8 @@ body
    
    
 }
+
+
 .main
 {
     border:14px solid darkcyan;
@@ -200,24 +202,7 @@ body
 
 
 }
-.moon_1
-{
-  
-    background-image: url(img/moon.png);
-    background-size: 100%;
-    padding:5.5% 0;
-    width:12%;
-    border-radius: 50%;
-    margin:0;
-    position: absolute;
-    left:82px;
-    bottom:81px;
-    display: block;
-    visibility: visible;
-    transition: all 1s ease-in;
-    box-sizing:border-box;
-   
-}
+
 .size
 {
     width:63%;
